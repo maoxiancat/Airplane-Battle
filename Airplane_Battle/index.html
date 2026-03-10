@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="game2">
+        <div id="g2div1">
+            <div id="g2div2">
+                <div id="status">生命值: <span id="lives"></span></div>
+                <div id="g2div3"></div>
+                <div id="g2div4" class="disappear"></div>
+                <button class="g2button1" onclick="startGame()">开始游戏</button>
+            </div>
+        </div>
+
+
+
+        <div id="choiceEquip">
+            <div style="font-size: 20px;">武器库</div>
+            <hr style="border-bottom: 1px solid #000000;">
+            <div style="height: 190px;display: flex;">
+                <div class="equiptype">子弹
+                    <div id="warhead">
+                        <div id="warhead1" class="equiptitle" style="border:3px solid green" onclick="choicewarhead1()">普通：就是十分的普通</div>
+                        <div id="warhead2" class="equiptitle" onclick="choicewarhead2()">贯穿：能够在击中敌机后继续飞行，且飞行速度较快</div>
+                    </div>
+                </div>
+                <div class="equiptype">机身
+                    <div id="fuselage">
+                        <div id="fuselage1" class="equiptitle" style="border:3px solid green" onclick="choicefuselage1()">普通：也是十分的普通</div>
+                        <div id="fuselage2" class="equiptitle" onclick="choicefuselage2()">敏捷：飞行速度较快，但血较少</div>
+                        <div id="fuselage3" class="equiptitle" onclick="choicefuselage3()">重装：能够撞碎敌机，血较多，但飞行速度较慢</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="difficulty">
+            <div style="font-size: 20px;">难度选择</div>
+            <hr style="border-bottom: 1px solid #000000;">
+            <div id="hardscore">
+                <div id="hardscore1" class="difficultyscore" onclick="choicehardscore1()">1</div>
+                <div id="hardscore2" class="difficultyscore" onclick="choicehardscore2()">2</div>
+                <div id="hardscore3" class="difficultyscore" onclick="choicehardscore3()">3</div>
+                <div id="hardscore4" class="difficultyscore" onclick="choicehardscore4()">4</div>
+                <div id="hardscore5" class="difficultyscore" onclick="choicehardscore5()" style="border:3px solid green">5</div>
+                <div id="hardscore6" class="difficultyscore" onclick="choicehardscore6()">6</div>
+                <div id="hardscore7" class="difficultyscore" onclick="choicehardscore7()">7</div>
+                <div id="hardscore8" class="difficultyscore" onclick="choicehardscore8()">8</div>
+                <div id="hardscore9" class="difficultyscore" onclick="choicehardscore9()">9</div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </div>
+</body>
+</html>
