@@ -1,0 +1,108 @@
+.disappear {
+    display: none;
+}
+
+#g2div2 {
+    width: 500px;
+    height: 770px;
+    bottom: 0;
+    border: solid 1.5px rgb(0, 0, 0);
+    position: relative;
+    margin: 0 auto;
+}
+
+#g2div3 {
+    position: absolute;
+    top: 80.5%;
+    left: 44%;
+    border: solid 1.5px rgb(0, 0, 0);
+    width: 50px;
+    height: 30px;
+}
+
+#g2div4, #bullet, .enemy-bullet {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+}
+
+#g2div4 {
+    background-color: black;
+    top: 79.7%;
+    left: 48.4%;
+}
+
+.enemy {
+    position: absolute;
+    border: solid 1.5px rgb(255, 0, 0);
+    width: 35px;
+    height: 20px;
+}
+
+.g2button1 {
+    position: absolute;
+    top: -30px;
+    left: 43%;
+}
+
+#g2div1 {
+    width: 500px;
+    height: 770px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top:50px
+}
+
+#choiceEquip {
+    position: absolute;
+    top:10%;
+    left: 1.5%;
+    width: 500px;
+    height: 235px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.equiptype {
+    width: 50%;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.equiptitle {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 7px;
+    margin-top: 10px;
+}
+
+#difficulty {
+    position: absolute;
+    top:10%;
+    left: 75%;
+    width: 200px;
+    height: 237px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.difficultyscore {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#hardscore {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
